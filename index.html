@@ -219,7 +219,7 @@
 <body>
     <div class="container">
         <h1>Selamat Ulang Tahun Ayah!</h1>
-        <h2>yang ke</h2>
+        <h2>yang ke </h2>
 
         <div class="age-display">56</div>
 
@@ -229,6 +229,7 @@
 
         <div class="message">
             <p>Semoga ayah dikurniakan kesihatan, kegembiraan, dan umur yang panjang.</p>
+            <p>Aamiin ❤️</p>
         </div>
 
         <button class="btn" onclick="showMessage()">Special Message untuk Ayah</button>
@@ -246,7 +247,7 @@
 
         function createBalloonsAndHearts() {
             const colors = ['#3b82f6', '#f87171', '#93c5fd', '#fca5a5'];
-            for (let i = 0; i < 5; i++) { // Kurangkan belon untuk performance
+            for (let i = 0; i < 10; i++) { // Kurangkan belon untuk performance
                 const balloon = document.createElement('div');
                 balloon.className = 'balloon';
                 balloon.style.left = Math.random() * 100 + 'vw';
@@ -256,7 +257,7 @@
                 document.body.appendChild(balloon);
             }
 
-            for (let i = 0; i < 10; i++) { // Kurangkan hati untuk performance
+            for (let i = 0; i < 20; i++) { // Kurangkan hati untuk performance
                 const heart = document.createElement('div');
                 heart.className = 'heart';
                 heart.innerHTML = '❤';
